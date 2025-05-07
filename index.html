@@ -15,6 +15,22 @@
             --border-color: rgba(224,224,224,0.3);
         }
 
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 100px 2rem;
+        }
+        
+        .content-card {
+            margin: 3rem auto;
+            max-width: 1400px;
+        }
+        
+        .project-grid {
+            justify-content: center;
+        }
+
         html {
             scroll-behavior: smooth;
             scroll-padding-top: 100px;
@@ -578,5 +594,12 @@
             observer.observe(el);
         });
     </script>
+    <div class="legal-info">
+        <small>© 2025 Rover Space Technology 闽ICP备202411110号 版权由ROVER所有 
+            <a href="https://rover2828.github.io/RSTprivacy">隐私政策</a>  
+            <a href="https://rover2828.github.io/RSTversion">版本记录</a>
+        </small>
+    </div>
+</footer>
 </body>
 </html>
